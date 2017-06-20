@@ -1,0 +1,237 @@
+body
+  margin: 0
+  padding: 0
+  background: #EEEEEE
+  font-family: Agency FB
+
+div,aside,section,header
+  box-sizing: border-box
+
+h1,h2,h3,p
+  padding: 0
+  margin: 0
+
+ul
+  padding: 0
+
+aside#sidebar
+  width: 25%
+  height: 100vh
+  background: #fff
+  position: fixed
+  header
+    background: #0a73bc
+    padding-top: 20px
+    box-shadow: 0.278px 1.981px 39.56px 3.44px rgba(193, 192, 192, 0.83)
+    text-align: center
+    div.avatar
+      background: #fff
+      width: 150px
+      height: 150px
+      margin: 0 auto
+      border-radius: 100%
+      box-shadow: 0.349px 4.988px 115.2px 12.8px rgba(82, 81, 81, 0.33)
+    div.text
+      padding-top: 10px
+      padding-bottom: 10px
+      h1
+        color: #fff
+      p
+        color: #fff
+  section#skill
+    padding: 20px 10px
+    overflow-y: scroll
+    h2
+      font-family: Agency FB
+      color: #6d6d6d
+    ul#list-skill
+      display: block
+      list-style-type: none
+      height: 300px
+      li
+        display: block
+        padding: 5px
+        h3
+          color: #777
+          font-size: 18px
+          padding: 5px 0
+        div.level
+          width: 100%
+          height: 10px
+          background: #E0E0E0
+          border-radius: 10px
+          overflow: hidden
+          =level-volumen($vol)
+            background: #0A73BC
+            height: 10px
+            width: (100%/20)*$vol
+          div.level-100
+            +level-volumen(20)
+          div.level-95
+            +level-volumen(19)
+          div.level-90
+            +level-volumen(18)
+          div.level-85
+            +level-volumen(17)
+          div.level-80
+            +level-volumen(16)
+          div.level-75
+            +level-volumen(15)
+          div.level-70
+            +level-volumen(14)
+          div.level-65
+            +level-volumen(13)
+          div.level-60
+            +level-volumen(12)
+          div.level-55
+            +level-volumen(11)
+          div.level-50
+            +level-volumen(10)
+          div.level-45
+            +level-volumen(9)
+          div.level-40
+            +level-volumen(8)
+          div.level-35
+            +level-volumen(7)
+          div.level-30
+            +level-volumen(6)
+          div.level-25
+            +level-volumen(5)
+          div.level-20
+            +level-volumen(4)
+          div.level-15
+            +level-volumen(3)
+          div.level-10
+            +level-volumen(2)
+          div.level-5
+            +level-volumen(1)
+          div.level-0
+            +level-volumen(0)
+div.container
+  background: #fff
+  width: 75%
+  left: 25%
+  position: relative
+header#head
+  width: 100%
+  position: relative
+  padding: 10px 0
+  box-shadow: 0px 0px 27px 0px rgba(182, 182, 182, 0.83)
+  &:after
+    content: ""
+    display: block
+    clear: both
+  div#contact,div#history
+    padding: 20px 40px
+    float: left
+    width: 42%
+    h1
+      color: #0A73BC
+    p
+      color: #8a8a8a
+      font-size: 20px
+      text-align: justify
+  div#contact
+    ul.list-contact
+      list-style-type: none
+      li
+        display: block
+        font-size: 16px
+        color: #8a8a8a
+        padding: 3px 0
+        i
+          margin-right: 10px
+          font-size: 20px
+  div#history
+    border-left: 1px solid #ccc
+
+section#bio
+  background: #fff
+  width: 80%
+  margin: 50px auto
+  overflow: auto
+  border-radius: 10px
+  box-shadow: 0.14px 1.995px 26.68px 2.32px rgba(179, 176, 176, 0.28)
+  div.img-full
+    width: 100%
+    height: 310px
+    position: relative
+  img.illustration
+    width: 100%
+  span.bio-icon
+    position: absolute
+    top: 10px
+    left: 60px
+    color: #fff
+    font-size: 30px
+    font-family: segoe ui
+    letter-spacing: 2px
+    i.icon
+      position: relative
+      top: 10px
+      margin-right: 10px
+      font-size: 50px
+      display: inline-block
+  div.avatar
+    background-image: url("./img/2.jpg")
+    width: 150px
+    height: 150px
+    z-index: 1000
+    position: absolute
+    bottom: 0
+    left: 50
+    border-radius: 100%
+    box-shadow: 0.14px 1.995px 26.68px 2.32px rgba(179, 176, 176, 0.28)
+
+  div.desc
+    padding: 10px 8%
+    div.title-name
+      padding-left: 12%
+      margin-top: -70px
+      position: relative
+      h2
+        font-family: raleway
+      p
+        font-family: raleway
+      span.icon
+        display: inline-block
+        position: absolute
+        top: 5px
+        right: 10px
+        i
+          font-size: 40px
+          color: #B9B9B9
+    div.biodata
+      padding: 30px 0
+      ul
+        list-style-type: none
+        li
+          color: #666
+          padding: 3px 0
+          font-size: 20px
+          display: block
+          p
+            color: #aaa
+            font-weight: lighter
+            padding-left: 20px
+    div.social
+      padding: 10px 0
+      ul
+        list-style-type: none
+        li
+          display: block
+          &:nth-of-type(1)
+            a
+              i
+                padding-right: 25px
+          a
+            text-decoration: none
+            color: #959595
+            font-size: 20px
+            i
+              text-align: right
+              padding: 10px
+              font-size: 30px
+
+hr.separator
+  border: 1px solid #ccc

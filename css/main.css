@@ -1,0 +1,275 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #EEEEEE;
+  font-family: Agency FB; }
+
+div, aside, section, header {
+  box-sizing: border-box; }
+
+h1, h2, h3, p {
+  padding: 0;
+  margin: 0; }
+
+ul {
+  padding: 0; }
+
+aside#sidebar {
+  width: 25%;
+  height: 100vh;
+  background: #fff;
+  position: fixed; }
+  aside#sidebar header {
+    background: #0a73bc;
+    padding-top: 20px;
+    box-shadow: 0.278px 1.981px 39.56px 3.44px rgba(193, 192, 192, 0.83);
+    text-align: center; }
+    aside#sidebar header div.avatar {
+      background: #fff;
+      width: 150px;
+      height: 150px;
+      margin: 0 auto;
+      border-radius: 100%;
+      box-shadow: 0.349px 4.988px 115.2px 12.8px rgba(82, 81, 81, 0.33); }
+    aside#sidebar header div.text {
+      padding-top: 10px;
+      padding-bottom: 10px; }
+      aside#sidebar header div.text h1 {
+        color: #fff; }
+      aside#sidebar header div.text p {
+        color: #fff; }
+  aside#sidebar section#skill {
+    padding: 20px 10px;
+    overflow-y: scroll; }
+    aside#sidebar section#skill h2 {
+      font-family: Agency FB;
+      color: #6d6d6d; }
+    aside#sidebar section#skill ul#list-skill {
+      display: block;
+      list-style-type: none;
+      height: 300px; }
+      aside#sidebar section#skill ul#list-skill li {
+        display: block;
+        padding: 5px; }
+        aside#sidebar section#skill ul#list-skill li h3 {
+          color: #777;
+          font-size: 18px;
+          padding: 5px 0; }
+        aside#sidebar section#skill ul#list-skill li div.level {
+          width: 100%;
+          height: 10px;
+          background: #E0E0E0;
+          border-radius: 10px;
+          overflow: hidden; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-100 {
+            background: #0A73BC;
+            height: 10px;
+            width: 100%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-95 {
+            background: #0A73BC;
+            height: 10px;
+            width: 95%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-90 {
+            background: #0A73BC;
+            height: 10px;
+            width: 90%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-85 {
+            background: #0A73BC;
+            height: 10px;
+            width: 85%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-80 {
+            background: #0A73BC;
+            height: 10px;
+            width: 80%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-75 {
+            background: #0A73BC;
+            height: 10px;
+            width: 75%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-70 {
+            background: #0A73BC;
+            height: 10px;
+            width: 70%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-65 {
+            background: #0A73BC;
+            height: 10px;
+            width: 65%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-60 {
+            background: #0A73BC;
+            height: 10px;
+            width: 60%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-55 {
+            background: #0A73BC;
+            height: 10px;
+            width: 55%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-50 {
+            background: #0A73BC;
+            height: 10px;
+            width: 50%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-45 {
+            background: #0A73BC;
+            height: 10px;
+            width: 45%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-40 {
+            background: #0A73BC;
+            height: 10px;
+            width: 40%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-35 {
+            background: #0A73BC;
+            height: 10px;
+            width: 35%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-30 {
+            background: #0A73BC;
+            height: 10px;
+            width: 30%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-25 {
+            background: #0A73BC;
+            height: 10px;
+            width: 25%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-20 {
+            background: #0A73BC;
+            height: 10px;
+            width: 20%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-15 {
+            background: #0A73BC;
+            height: 10px;
+            width: 15%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-10 {
+            background: #0A73BC;
+            height: 10px;
+            width: 10%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-5 {
+            background: #0A73BC;
+            height: 10px;
+            width: 5%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-0 {
+            background: #0A73BC;
+            height: 10px;
+            width: 0%; }
+
+div.container {
+  background: #fff;
+  width: 75%;
+  left: 25%;
+  position: relative; }
+
+header#head {
+  width: 100%;
+  position: relative;
+  padding: 10px 0;
+  box-shadow: 0px 0px 27px 0px rgba(182, 182, 182, 0.83); }
+  header#head:after {
+    content: "";
+    display: block;
+    clear: both; }
+  header#head div#contact, header#head div#history {
+    padding: 20px 40px;
+    float: left;
+    width: 42%; }
+    header#head div#contact h1, header#head div#history h1 {
+      color: #0A73BC; }
+    header#head div#contact p, header#head div#history p {
+      color: #8a8a8a;
+      font-size: 20px;
+      text-align: justify; }
+  header#head div#contact ul.list-contact {
+    list-style-type: none; }
+    header#head div#contact ul.list-contact li {
+      display: block;
+      font-size: 16px;
+      color: #8a8a8a;
+      padding: 3px 0; }
+      header#head div#contact ul.list-contact li i {
+        margin-right: 10px;
+        font-size: 20px; }
+  header#head div#history {
+    border-left: 1px solid #ccc; }
+
+section#bio {
+  background: #fff;
+  width: 80%;
+  margin: 50px auto;
+  overflow: auto;
+  border-radius: 10px;
+  box-shadow: 0.14px 1.995px 26.68px 2.32px rgba(179, 176, 176, 0.28); }
+  section#bio div.img-full {
+    width: 100%;
+    height: 310px;
+    position: relative; }
+  section#bio img.illustration {
+    width: 100%; }
+  section#bio span.bio-icon {
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    color: #fff;
+    font-size: 30px;
+    font-family: segoe ui;
+    letter-spacing: 2px; }
+    section#bio span.bio-icon i.icon {
+      position: relative;
+      top: 10px;
+      margin-right: 10px;
+      font-size: 50px;
+      display: inline-block; }
+  section#bio div.avatar {
+    background-image: url("./img/2.jpg");
+    width: 150px;
+    height: 150px;
+    z-index: 1000;
+    position: absolute;
+    bottom: 0;
+    left: 50;
+    border-radius: 100%;
+    box-shadow: 0.14px 1.995px 26.68px 2.32px rgba(179, 176, 176, 0.28); }
+  section#bio div.desc {
+    padding: 10px 8%; }
+    section#bio div.desc div.title-name {
+      padding-left: 12%;
+      margin-top: -70px;
+      position: relative; }
+      section#bio div.desc div.title-name h2 {
+        font-family: raleway; }
+      section#bio div.desc div.title-name p {
+        font-family: raleway; }
+      section#bio div.desc div.title-name span.icon {
+        display: inline-block;
+        position: absolute;
+        top: 5px;
+        right: 10px; }
+        section#bio div.desc div.title-name span.icon i {
+          font-size: 40px;
+          color: #B9B9B9; }
+    section#bio div.desc div.biodata {
+      padding: 30px 0; }
+      section#bio div.desc div.biodata ul {
+        list-style-type: none; }
+        section#bio div.desc div.biodata ul li {
+          color: #666;
+          padding: 3px 0;
+          font-size: 20px;
+          display: block; }
+          section#bio div.desc div.biodata ul li p {
+            color: #aaa;
+            font-weight: lighter;
+            padding-left: 20px; }
+    section#bio div.desc div.social {
+      padding: 10px 0; }
+      section#bio div.desc div.social ul {
+        list-style-type: none; }
+        section#bio div.desc div.social ul li {
+          display: block; }
+          section#bio div.desc div.social ul li:nth-of-type(1) a i {
+            padding-right: 25px; }
+          section#bio div.desc div.social ul li a {
+            text-decoration: none;
+            color: #959595;
+            font-size: 20px; }
+            section#bio div.desc div.social ul li a i {
+              text-align: right;
+              padding: 10px;
+              font-size: 30px; }
+
+hr.separator {
+  border: 1px solid #ccc; }
+
+/*# sourceMappingURL=main.css.map */
