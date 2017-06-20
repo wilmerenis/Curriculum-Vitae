@@ -25,7 +25,8 @@ aside#sidebar {
     box-shadow: 0.278px 1.981px 39.56px 3.44px rgba(193, 192, 192, 0.83);
     text-align: center; }
     aside#sidebar header div.avatar {
-      background: #fff;
+      background-image: url("../img/avatar.jpg");
+      background-size: cover;
       width: 150px;
       height: 150px;
       margin: 0 auto;
@@ -212,19 +213,20 @@ section#bio {
       font-size: 50px;
       display: inline-block; }
   section#bio div.avatar {
-    background-image: url("./img/2.jpg");
+    background-image: url("../img/avatar.jpg");
+    background-size: cover;
     width: 150px;
     height: 150px;
     z-index: 1000;
     position: absolute;
-    bottom: 0;
-    left: 50;
+    bottom: 25px;
+    left: 50px;
     border-radius: 100%;
     box-shadow: 0.14px 1.995px 26.68px 2.32px rgba(179, 176, 176, 0.28); }
   section#bio div.desc {
     padding: 10px 8%; }
     section#bio div.desc div.title-name {
-      padding-left: 12%;
+      padding-left: 17%;
       margin-top: -70px;
       position: relative; }
       section#bio div.desc div.title-name h2 {
